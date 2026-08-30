@@ -36,7 +36,7 @@ The App handles the following information locally:
 
 Audio used for transcription remains on your device unless you export or copy it yourself. The App does not upload audio to Google Drive or to a server operated by us. We do not have remote access to your local recordings, transcripts, or notes.
 
-Local content remains on the device until you delete a session or remove the App, subject to iOS backup and device-management behavior. Although the App may display a retention-days setting, the current version does not automatically delete sessions based on that setting. Google Drive files have separate retention as described below.
+Local content remains on the device until you delete a session, remove the App, or the session passes the retention-days setting you choose in Settings. Sessions older than that many calendar days from their start date are deleted from the device when the App launches and when you save the retention setting. Deleting a local session does not delete Markdown already uploaded to Google Drive. Copies may also remain in iOS backups or other places you export them.
 
 ### 4. Optional Google Drive connection
 
@@ -122,7 +122,7 @@ We may update this policy when the App or our practices change. We will update t
 
 文字起こしに使う音声は、利用者が自ら書き出しまたはコピーしない限り端末内に残ります。本アプリは、音声を Google Drive または運営者のサーバーへアップロードしません。運営者は、端末内の録音、文字起こし、ノートへ遠隔からアクセスできません。
 
-端末内の内容は、利用者がセッションを削除するか本アプリを削除するまで端末に残ります。ただし、iOS のバックアップや端末管理の仕組みによってコピーが残る場合があります。本アプリには保持日数の設定が表示されることがありますが、現行バージョンは、その設定に基づくセッションの自動削除を行いません。Google Drive 上のファイルについては、次項の取り扱いとなります。
+端末内の内容は、利用者がセッションを削除するか、本アプリを削除するか、設定した保持日数を過ぎるまで端末に残ります。開始日から保持日数を過ぎたセッションは、本アプリの起動時と、保持日数の設定を保存したときに端末から削除します。端末内のセッションを削除しても、すでに Google Drive へ送った Markdown は削除されません。iOS のバックアップや、利用者が書き出したコピーは残ることがあります。
 
 ### 4. 任意の Google Drive 接続
 
