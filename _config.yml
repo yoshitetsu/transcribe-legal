@@ -8,3 +8,7 @@ header_pages:
   - terms/index.md
   - privacy/index.md
 author: Tetsuhiro Yoshida
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
