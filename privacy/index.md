@@ -1,16 +1,21 @@
-# Privacy Policy — Transcribe
+---
+layout: page
+title: Privacy Policy
+---
 
 Last updated: 2026-08-30
 
-Support: contact via the Google Form linked from the App Store product page and the in-app Settings screen.
+Support: contact via the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdA1f_cpA4lGkpmPeFScjFKfPNqjfbTPDnE1n9R2MzxB2AxRQ/viewform) linked from the App Store product page and the in-app Settings screen.
+
+These pages also include the [Terms of Use]({{ site.baseurl }}/terms/).
 
 ---
 
 ## English
 
-### What Transcribe does
+### What Transcribe Edge does
 
-Transcribe records meeting audio on your iPhone, transcribes it on device after you stop, and can upload Markdown notes to Google Drive that you connect.
+Transcribe Edge records meeting audio on your iPhone, transcribes it on device after you stop, and can upload Markdown notes to Google Drive that you connect.
 
 ### Data we process on the device
 
@@ -18,20 +23,20 @@ Transcribe records meeting audio on your iPhone, transcribes it on device after 
 - Transcripts, notes, and minutes generated on the device
 - App settings such as UI language and retention days
 
-Audio used for transcription stays on your device unless you copy it elsewhere yourself. Transcribe does not upload audio files to Google Drive.
+Audio used for transcription stays on your device unless you copy it elsewhere yourself. Transcribe Edge does not upload audio files to Google Drive.
 
 ### Data shared with Google
 
-If you sign in with Google, Transcribe requests:
+If you sign in with Google, Transcribe Edge requests:
 
-- `drive.file` to create or update Markdown files in a Transcribe folder you own
+- `drive.file` to create or update Markdown files in a Transcribe Edge folder you own
 - `userinfo.email` to show which account is connected
 
 Google’s handling of that data is governed by Google’s policies. You can disconnect in Settings; local tokens are removed from the Keychain when you disconnect.
 
 ### Data we do not collect
 
-- We do not run a Transcribe cloud backend for transcription or summarization
+- We do not run a Transcribe Edge cloud backend for transcription or summarization
 - We do not sell personal data
 - We do not use advertising or tracking SDKs in the current app
 
@@ -41,7 +46,7 @@ Audio and local Markdown follow the retention days you set in the app. Drive fil
 
 ### Children’s privacy
 
-Transcribe is not directed to children under 13.
+Transcribe Edge is not directed to children under 13.
 
 ### Changes
 
@@ -51,9 +56,9 @@ We may update this policy. The “Last updated” date will change when we do.
 
 ## 日本語
 
-### Transcribe がすること
+### Transcribe Edge がすること
 
-Transcribe は iPhone 上で会議などの音声を収録し、停止後に端末内で文字起こしと議事録を作り、接続した Google Drive に Markdown を保存できます。
+Transcribe Edge は iPhone 上で会議などの音声を収録し、停止後に端末内で文字起こしと議事録を作り、接続した Google Drive に Markdown を保存できます。
 
 ### 端末内で扱うデータ
 
@@ -61,20 +66,20 @@ Transcribe は iPhone 上で会議などの音声を収録し、停止後に端�
 - 端末内で生成した文字起こし、ノート、議事録
 - UI 言語や保持日数などの設定
 
-文字起こしに使う音声は、原則として端末内に残ります。Transcribe は音声ファイルを Google Drive にアップロードしません。
+文字起こしに使う音声は、原則として端末内に残ります。Transcribe Edge は音声ファイルを Google Drive にアップロードしません。
 
 ### Google と共有するデータ
 
 Google で接続した場合、次を要求します。
 
-- `drive.file` … あなた所有の Transcribe フォルダへ Markdown を作成・更新するため
+- `drive.file` … あなた所有の Transcribe Edge フォルダへ Markdown を作成・更新するため
 - `userinfo.email` … 接続中アカウントの表示のため
 
 Google 側の取り扱いは Google のポリシーに従います。設定から切断すると、端末の Keychain 上のトークンを削除します。
 
 ### 収集しないもの
 
-- 文字起こしや要約のための Transcribe 独自クラウドは使いません
+- 文字起こしや要約のための Transcribe Edge 独自クラウドは使いません
 - 個人情報の販売はしません
 - 現行アプリに広告・トラッキング用 SDK はありません
 
@@ -84,7 +89,7 @@ Google 側の取り扱いは Google のポリシーに従います。設定か�
 
 ### 子どものプライバシー
 
-Transcribe は 13 歳未満の子ども向けではありません。
+Transcribe Edge は 13 歳未満の子ども向けではありません。
 
 ### 変更
 

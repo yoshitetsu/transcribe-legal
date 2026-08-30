@@ -1,4 +1,10 @@
-title: Transcribe
-description: Public legal pages for the Transcribe iOS app
+title: Transcribe Edge
+description: On-device meeting notes for iPhone
+url: https://yoshitetsu.github.io
+baseurl: /transcribe-legal
 theme: minima
 permalink: pretty
+header_pages:
+  - terms/index.md
+  - privacy/index.md
+author: Tetsuhiro Yoshida
