@@ -7,67 +7,106 @@ Last updated: 2026-08-30
 
 Operator: Tetsuhiro Yoshida
 
-These terms apply to the Transcribe Edge iOS app. The [Privacy Policy]({{ site.baseurl }}/privacy/) covers how data is handled. Support is available through the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdA1f_cpA4lGkpmPeFScjFKfPNqjfbTPDnE1n9R2MzxB2AxRQ/viewform) linked from the App Store product page and the in-app Settings screen.
+These terms apply to the Transcribe Edge iOS app. The [Privacy Policy]({{ site.baseurl }}/privacy/) explains how information is handled. Support is available through the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdA1f_cpA4lGkpmPeFScjFKfPNqjfbTPDnE1n9R2MzxB2AxRQ/viewform) linked from the App Store product page and the in-app Settings screen.
 
 ---
 
 ## English
 
-### 1. Agreement
+### 1. Operator and agreement
 
-By downloading, purchasing, or using Transcribe Edge, you agree to these Terms of Use. If you do not agree, do not use the app.
+Transcribe Edge (“the App”) is operated by Tetsuhiro Yoshida (“the operator”). By downloading, purchasing, or using the App, you agree to these Terms of Use. If you do not agree, do not use the App.
 
-### 2. The app
+Your use of the App is also subject to the applicable Apple Media Services Terms and any Apple standard end-user license terms that apply to App Store apps. These Terms supplement those Apple terms. Mandatory law controls if it cannot validly be changed by contract.
 
-Transcribe Edge records meeting audio on two channels when you start a session, then creates a transcript and meeting notes on your iPhone after you stop. It does not provide live captions. It does not send audio or notes to a Transcribe Edge cloud service for transcription or summarization.
+### 2. What the App does
 
-Optional Google Drive upload, if you connect an account, sends only Markdown notes and minutes. Audio files stay on the device.
+When you explicitly start a session, the App records two channels: speaker or system audio captured through screen sharing, and microphone audio such as input from AirPods. If the system-audio channel is unavailable, the App does not silently continue as a microphone-only recording. After you stop, the App uses on-device SpeechAnalyzer, Apple Intelligence, and Foundation Models to create a transcript, notes, and minutes. It does not provide live captions.
 
-### 3. Requirements
+The App does not send audio or text to an operator-run cloud service for transcription or summarization and does not fall back to a cloud LLM. Audio remains on your device unless you export or copy it yourself.
 
-You need iOS 27 or later, an iPhone that supports Apple Intelligence, AirPods that can provide microphone input, and permission to capture system audio through screen sharing. If SpeechAnalyzer or Foundation Models are unavailable on your device, in your region, or because assets are not downloaded, the app stops processing. It does not fall back to a cloud speech service.
+### 3. Requirements and availability
 
-### 4. Purchase
+The App requires iOS 27 or later, an iPhone that supports Apple Intelligence, AirPods that can provide microphone input, and permission to capture system audio through screen sharing. Availability also depends on Apple making SpeechAnalyzer, Apple Intelligence, and Foundation Models available on your device and in your region, and on required model assets being downloaded and enabled.
 
-Transcribe Edge is a paid, one-time purchase on the App Store. Price may differ by storefront. Payment, taxes, and refunds are handled by Apple under the Apple Media Services terms. The developer does not take payment outside the App Store.
+If a required feature or the system-audio channel is unavailable, the relevant recording or processing function is unavailable. The App does not silently substitute microphone-only recording, a legacy speech recognizer, or a cloud service. Internet access may still be required for App Store services, downloading Apple-provided assets, Google sign-in, and Google Drive upload.
 
-### 5. Recording and consent
+The operator does not control Apple feature availability, supported languages, asset downloads, iOS behavior, Google services, or network conditions. Features may therefore be unavailable or interrupted even on an otherwise supported device.
 
-You decide when a session starts and stops. If you record other people, you are responsible for telling them and for complying with the law where you record. The app may show a short notice. It does not obtain consent for you, keep a legal record of consent, or decide whether a conversation may be recorded.
+### 4. Purchase, price, and refunds
 
-### 6. Accuracy and availability
+The App is a paid, one-time App Store purchase, not a subscription. The expected Japanese storefront price is approximately ¥100, but the exact price, tax treatment, currency, and availability shown by Apple at the time of purchase control and may differ by storefront or change over time. There are no operator-billed recurring fees for using the App. Your carrier, internet provider, Apple, or Google may separately charge for services you use.
 
-Transcripts and notes are generated on device. They can be incomplete, incorrect, or unavailable. Do not treat the output as a complete legal or official record. The developer does not warrant a particular recognition rate.
+Apple processes payment and handles refund requests under its applicable terms and policies. The operator does not receive payment outside the App Store and cannot issue App Store refunds directly. Nothing in these Terms limits refund or other rights that mandatory consumer law gives you.
 
-### 7. Your responsibilities
+### 5. Google Drive
 
-You are responsible for how you use recordings, transcripts, and notes, including files you copy or upload to Google Drive. You must not use the app to break the law, to record people where you are not allowed to, or to upload content you do not have the right to store.
+Connecting Google Drive is optional. If you connect an account, the App requests the `drive.file` and `userinfo.email` OAuth scopes. It creates or uses a Drive folder named “Transcribe Edge” and uploads only the Markdown notes and minutes you choose to send. It never uploads audio.
 
-### 8. Intellectual property
+Your use of Google services is also governed by Google’s terms and policies. Disconnecting the App does not delete Markdown already uploaded to Drive. You are responsible for deleting or changing the sharing settings of those files in Google Drive.
 
-The app, name, and related materials belong to Tetsuhiro Yoshida or the rights holders who license them. Purchase gives you a personal, non-exclusive, non-transferable license to use the app on devices linked to your Apple ID, as allowed by Apple. You do not receive ownership of the software.
+### 6. Recording and consent
 
-Notes and recordings you create remain yours, subject to these terms, Apple’s terms, and any terms of services you connect, such as Google.
+You decide when a recording starts and stops. Before recording another person, you are responsible for giving any notice, obtaining any consent, and complying with the laws, workplace rules, contracts, platform rules, and confidentiality obligations that apply where you and the other participants are located.
 
-### 9. Disclaimer
+The App may display a short reminder, but it does not obtain consent for you, verify anyone’s identity or authority, create proof of consent, or decide whether a conversation may lawfully be recorded. A notice shown by the App is not a substitute for the steps the law or your circumstances require.
 
-The app is provided as is. To the extent permitted by law, the developer disclaims warranties of merchantability, fitness for a particular purpose, and non-infringement. The app may be interrupted when system features are unavailable.
+### 7. Accuracy and appropriate use
 
-### 10. Limitation of liability
+Transcripts, notes, summaries, action items, and sensitivity indicators are generated automatically. They may be incomplete, inaccurate, misleading, or unavailable. The self/other distinction is based on the recording channel, not inferred speaker identity, and may not identify the actual person speaking.
 
-To the extent permitted by law, the developer is not liable for indirect, incidental, special, or consequential damages, or for lost profits, lost data, or business interruption, arising from use of the app or from reliance on a transcript or note. Where liability cannot be excluded, it is limited to the amount you paid for the app, unless applicable law requires more.
+Review the original conversation and verify important details before relying on the output. Do not use the App as the sole record for legal filings, medical care, emergencies, safety decisions, financial decisions, employment decisions, or any other high-impact purpose. The operator does not promise a particular recognition rate or that output will be admissible as evidence.
 
-### 11. Privacy
+### 8. Your responsibilities and prohibited use
 
-Personal data is described in the [Privacy Policy]({{ site.baseurl }}/privacy/). Audio used for transcription stays on the device unless you copy it yourself. Google receives email and Markdown only if you connect Drive.
+You are responsible for recordings, transcripts, notes, exported files, and Drive files you create or share through the App. You must not use the App:
 
-### 12. Changes and contact
+- in violation of law or another person’s rights;
+- to record a conversation when you are not permitted to do so;
+- to infringe privacy, publicity, intellectual-property, contractual, or confidentiality rights;
+- to upload or share content you do not have the right to store or disclose;
+- to harass, threaten, discriminate against, or harm another person; or
+- to interfere with the App, bypass security or technical restrictions, distribute malware, or misuse Apple or Google services.
 
-These terms may change. The “Last updated” date will change when they do. Continued use after an update means you accept the new terms. Questions go to the support form.
+### 9. Ownership and license
 
-### 13. Governing law
+The App, its name, and related materials are owned by the operator or applicable rights holders. Your purchase gives you a personal, limited, non-exclusive, non-transferable license to use the App on Apple devices associated with your Apple account as permitted by Apple’s terms. No ownership of the software is transferred to you.
 
-These terms are governed by the laws of Japan, without regard to conflict-of-law rules. If a court in Japan has jurisdiction, the Tokyo District Court is the agreed exclusive court of first instance, unless mandatory consumer law says otherwise.
+As between you and the operator, you retain your rights in recordings, titles, transcripts, notes, and minutes you create. You represent that you have the rights needed to create, process, store, and share that content. Apple’s terms, Google’s terms, and the rights of recorded participants and other third parties may also apply.
+
+### 10. Privacy
+
+The [Privacy Policy]({{ site.baseurl }}/privacy/) explains how information is handled, including local processing, Google OAuth, Drive uploads, support requests, retention, and deletion choices.
+
+### 11. App changes and discontinuation
+
+The operator may update, modify, suspend, or discontinue all or part of the App when reasonably necessary for security, legal compliance, changes to Apple or Google services, technical maintenance, or continued operation. A one-time purchase does not guarantee that every feature or third-party service will remain available indefinitely. Where reasonably practicable, material changes will be announced through the App, the App Store listing, or this site.
+
+This section does not limit any remedy or consumer right that applicable law provides if the App does not conform to a legally required standard.
+
+### 12. Disclaimer
+
+The App is provided on an “as is” and “as available” basis. To the extent permitted by law, the operator does not make additional warranties of merchantability, fitness for a particular purpose, non-infringement, uninterrupted operation, or error-free output beyond warranties that cannot legally be excluded.
+
+### 13. Limitation of liability
+
+To the extent permitted by law, the operator is not liable for indirect, incidental, special, or consequential loss, lost profits, lost data, or business interruption arising from use of the App or reliance on its output.
+
+This exclusion does not apply to liability that cannot be excluded under applicable law, including liability caused by the operator’s intentional misconduct or gross negligence. Where the operator is liable for ordinary negligence and a lawful limit is permitted, liability is limited to direct and ordinary loss and, in total, the amount you paid for the App. Any mandatory rights or remedies under consumer law remain unaffected.
+
+### 14. Changes to these Terms
+
+The operator may change these Terms when reasonably necessary because of changes to the App, law, security needs, or third-party services. The updated Terms will state a new “Last updated” date. When a change materially affects users, the operator will provide reasonable notice through the App, the App Store listing, or this site where practicable. A change will not retroactively remove rights that have already accrued where prohibited by law.
+
+If you do not agree to updated Terms, stop using the App. Your continued use after the effective date may constitute acceptance to the extent permitted by applicable law.
+
+### 15. Governing law and court
+
+These Terms are governed by the laws of Japan, without regard to conflict-of-law rules. If a court in Japan has jurisdiction, the Tokyo District Court is the agreed court of first instance, unless a mandatory rule, including consumer-protection law, requires another court or procedure.
+
+### 16. Contact
+
+Questions about the App or these Terms may be sent through the support form linked above.
 
 ---
 
@@ -75,56 +114,95 @@ These terms are governed by the laws of Japan, without regard to conflict-of-law
 
 ### 第1条（適用）
 
-本規約は、Tetsuhiro Yoshida（以下「運営者」）が提供する iPhone アプリ「Transcribe Edge」（以下「本アプリ」）の利用条件を定めるものです。本アプリをダウンロードし、購入し、または利用した時点で、利用者は本規約に同意したものとします。同意できない場合は、本アプリを利用しないでください。
+本規約は、Tetsuhiro Yoshida（以下「運営者」）が提供する iOS アプリ「Transcribe Edge」（以下「本アプリ」）の利用条件を定めるものです。本アプリをダウンロードし、購入し、または利用することにより、利用者は本規約に同意します。同意できない場合は、本アプリを利用しないでください。
+
+本アプリの利用には、Apple Media Services 利用規約および App Store のアプリに適用される Apple の標準的なエンドユーザー使用許諾条件も適用されます。本規約は、それらの Apple の条件を補足するものです。契約によって変更できない法令の規定がある場合は、その規定が優先します。
 
 ### 第2条（本アプリの内容）
 
-本アプリは、利用者がセッションを開始したときに会議などの音声を二系統で収録し、停止したあと、iPhone の中で文字起こしと議事録を作ります。ライブ字幕はありません。文字起こしや要約のために、運営者のクラウドへ音声や文章を送ることはしません。
+本アプリは、利用者が明示的にセッションを開始したとき、画面共有で取得するスピーカーまたはシステム音声と、AirPods などから入るマイク音声を二系統で収録します。システム音声を取得できない場合、利用者に知らせずマイク音声だけの収録へ切り替えることはありません。収録を停止したあと、端末内の SpeechAnalyzer、Apple Intelligence、および Foundation Models を使って、文字起こし、ノート、議事録を作ります。ライブ字幕機能はありません。
 
-利用者が Google アカウントを接続した場合、Google Drive へ送るのはノートと議事録の Markdown だけです。音声ファイルは端末に残します。
+文字起こしや要約のために、音声または文章を運営者のクラウドサービスへ送ることはなく、クラウド LLM へ切り替えて処理することもありません。音声は、利用者が自ら書き出しまたはコピーしない限り端末内に残ります。
 
-### 第3条（利用環境）
+### 第3条（利用環境と利用不能）
 
-本アプリの利用には、iOS 27 以降、Apple Intelligence に対応した iPhone、マイク入力ができる AirPods、および画面共有によるシステム音声の許可が必要です。SpeechAnalyzer または Foundation Models が端末、地域、あるいは未ダウンロードの理由で使えないときは、処理を止めます。別のクラウド音声認識へ切り替えることはしません。
+本アプリの利用には、iOS 27 以降、Apple Intelligence に対応した iPhone、マイク入力ができる AirPods、および画面共有によるシステム音声の取得許可が必要です。また、SpeechAnalyzer、Apple Intelligence、および Foundation Models が利用者の端末と地域で提供され、必要なモデルデータがダウンロードされて有効になっている必要があります。
 
-### 第4条（料金）
+必要な機能またはシステム音声を利用できない場合、該当する収録または処理機能は利用不能になります。マイク音声だけの収録、旧方式の音声認識、またはクラウドサービスへ、利用者に知らせず切り替えることはありません。App Store の利用、Apple が提供するモデルデータのダウンロード、Google へのログイン、および Google Drive へのアップロードには、インターネット接続が必要になることがあります。
 
-本アプリは App Store の買い切りです。価格はストアフロントによって異なります。支払い、税、返金は Apple の購入手続きおよび Apple Media Services の規約に従います。運営者は App Store の外で代金を受け取りません。
+Apple の機能提供、対応言語、モデルデータのダウンロード、iOS の挙動、Google のサービス、および通信環境は、運営者が管理するものではありません。そのため、対応端末であっても、機能が利用不能または中断することがあります。
 
-### 第5条（収録と同意）
+### 第4条（購入、価格および返金）
 
-収録の開始と停止は、利用者が決めます。他者の声を録るときは、相手へ伝えること、収録する場所の法令を守ることは、利用者の責任です。本アプリは短い注意を表示することがあります。ただし、同意の取得、同意の証明、収録してよいかの判断は行いません。
+本アプリは、サブスクリプションではなく、App Store での有料の買い切りアプリです。日本のストアフロントにおける想定価格は約100円ですが、購入時に Apple が表示する価格、税、通貨および販売可否が優先し、ストアフロントや時期によって異なることがあります。本アプリの利用について、運営者が継続課金を行うことはありません。ただし、通信事業者、インターネット接続事業者、Apple、または Google のサービスについて、各事業者から別途料金が発生する場合があります。
 
-### 第6条（精度と利用不能）
+決済および返金申請は、Apple が適用される規約とポリシーに基づいて取り扱います。運営者は App Store の外で代金を受け取らず、App Store の返金を直接行うことはできません。本条は、強行法規に基づく返金その他の消費者の権利を制限するものではありません。
 
-文字起こしと議事録は端末内で生成します。欠落、誤り、あるいは利用不能があり得ます。出力を完全な法的記録や公式記録として扱わないでください。運営者は、特定の認識率を保証しません。
+### 第5条（Google Drive）
 
-### 第7条（利用者の責任）
+Google Drive の接続は任意です。Google アカウントを接続する場合、本アプリは OAuth の `drive.file` および `userinfo.email` スコープを要求します。本アプリは、Google Drive 内に「Transcribe Edge」という名前のフォルダを作成または使用し、利用者が送信を選んだノートと議事録の Markdown だけをアップロードします。音声はアップロードしません。
 
-録音、文字起こし、ノートの扱い、Google Drive へ送ったファイルの扱いは、利用者の責任です。法令に反する利用、収録が許されない会話の録音、保存する権利のない内容のアップロードはしないでください。
+Google のサービスには、Google の規約とポリシーも適用されます。本アプリとの接続を解除しても、すでに Drive へ送った Markdown は削除されません。それらのファイルの削除および共有設定の変更は、利用者が Google Drive 上で行ってください。
 
-### 第8条（知的財産）
+### 第6条（収録と同意）
 
-本アプリ、名称、および関連資料の権利は、運営者または正当な権利者に帰属します。購入により、利用者は Apple ID に紐づく端末上で、Apple が許す範囲の個人的、非独占的、譲渡不能な利用許諾を受けます。ソフトウェアの所有権は移転しません。
+収録の開始と停止は、利用者が決めます。他者を収録する前に、利用者および参加者がいる場所に適用される法令、職場の規則、契約、利用中の会議サービスの規則、および守秘義務に従い、必要な説明を行い、同意を得る責任は利用者にあります。
 
-利用者が作ったノートと録音は、本規約、Apple の規約、および接続先（Google など）の規約に従うことを条件に、利用者のものです。
+本アプリは短い注意を表示することがありますが、利用者に代わって同意を取得せず、本人確認や権限確認を行わず、同意の証明を作成せず、会話を適法に収録できるかを判断しません。本アプリの注意表示は、法令または個別の事情に応じて必要となる手続きの代わりにはなりません。
 
-### 第9条（免責）
+### 第7条（精度と適切な利用）
 
-本アプリは現状有姿で提供します。法令で許される範囲で、運営者は、商品性、特定目的適合性、権利非侵害の保証を含み、明示または黙示の保証をしません。システム機能が使えないときは、本アプリの処理が止まることがあります。
+文字起こし、ノート、要約、TODO、機微に関する表示は、自動で生成されます。欠落、誤り、誤解を招く内容、または利用不能が生じることがあります。自分と相手の区別は、推測した話者の本人性ではなく収録チャンネルに基づくものであり、実際に発言した人物を特定するものではありません。
 
-### 第10条（責任の制限）
+重要な内容に依拠する前に、元の会話を確認し、出力を検証してください。法的手続、医療、緊急対応、安全、金融、雇用判断その他重大な影響を伴う用途について、本アプリの出力だけを唯一の記録または判断材料として使用しないでください。運営者は、特定の認識率や、出力が証拠として採用されることを保証しません。
 
-法令で許される範囲で、運営者は、本アプリの利用、または文字起こしや議事録への依拠から生じた間接損害、付随的損害、特別損害、結果損害、逸失利益、データ喪失、事業中断について責任を負いません。責任を排除できない場合の上限は、利用者が本アプリに支払った対価とします。ただし、強行法規がそれ以上を求めるときは、その規定に従います。
+### 第8条（利用者の責任および禁止事項）
 
-### 第11条（プライバシー）
+本アプリを通じて作成または共有する録音、文字起こし、ノート、書き出したファイル、および Drive 上のファイルは、利用者の責任で管理してください。利用者は、本アプリを次の目的または方法で利用してはなりません。
 
-個人情報の取り扱いは、[プライバシーポリシー]({{ site.baseurl }}/privacy/) に定めます。文字起こしに使う音声は、利用者が自らコピーしない限り端末内に残ります。Google Drive を接続したときに Google へ渡るのは、メールアドレスと Markdown です。
+- 法令または他者の権利に反する利用
+- 収録が認められていない会話の録音
+- プライバシー権、パブリシティ権、知的財産権、契約上の権利、または守秘義務の侵害
+- 保存または開示する権限のない内容のアップロードまたは共有
+- 他者への嫌がらせ、脅迫、差別、または加害
+- 本アプリへの妨害、セキュリティもしくは技術的制限の回避、マルウェアの配布、または Apple もしくは Google のサービスの不正利用
 
-### 第12条（変更と連絡）
+### 第9条（権利帰属と利用許諾）
 
-本規約は変更することがあります。変更時は「Last updated」の日付を更新します。変更後に本アプリを使い続けた場合、新しい規約に同意したものとします。問い合わせはサポートフォームへお願いします。
+本アプリ、その名称、および関連資料の権利は、運営者または正当な権利者に帰属します。購入により、利用者は Apple の規約で認められる範囲において、Apple アカウントに関連付けられた Apple 製端末上で本アプリを利用するための、個人的、限定的、非独占的、譲渡不能な利用許諾を受けます。ソフトウェアの所有権は利用者へ移転しません。
 
-### 第13条（準拠法）
+利用者と運営者との関係では、利用者が作成した録音、タイトル、文字起こし、ノート、および議事録に関する利用者の権利は、利用者に残ります。利用者は、それらを作成、処理、保存、および共有するために必要な権利を有しているものとします。Apple および Google の規約、収録された参加者の権利、その他第三者の権利も適用される場合があります。
 
-本規約は日本法に準拠します。抵触法の原則は適用しません。日本の裁判所が管轄を有する場合、東京地方裁判所を第一審の専属的合意管轄裁判所とします。ただし、消費者契約に関する強行法規が別の定めをするときは、その規定に従います。
+### 第10条（プライバシー）
+
+端末内処理、Google OAuth、Drive へのアップロード、サポートへの問い合わせ、保持期間、および削除方法を含む情報の取り扱いは、[プライバシーポリシー]({{ site.baseurl }}/privacy/) に定めます。
+
+### 第11条（本アプリの変更および終了）
+
+運営者は、セキュリティ、法令対応、Apple または Google のサービス変更、技術的な保守、または本アプリの運営継続のために合理的に必要な場合、本アプリの全部または一部を更新、変更、一時停止、または終了することがあります。買い切りでの購入は、すべての機能または第三者サービスが無期限に提供されることを保証するものではありません。重要な変更については、合理的に可能な範囲で、本アプリ、App Store の掲載情報、または本サイトを通じてお知らせします。
+
+本条は、本アプリが法令上求められる基準に適合しない場合に、利用者が法令に基づいて有する救済または消費者としての権利を制限するものではありません。
+
+### 第12条（免責）
+
+本アプリは、現状有姿かつ提供可能な状態で提供します。法令で許される範囲で、運営者は、法令上排除できない保証を除き、商品性、特定目的適合性、権利非侵害、中断のない動作、または誤りのない出力について、追加の保証をしません。
+
+### 第13条（責任の制限）
+
+法令で許される範囲で、運営者は、本アプリの利用または出力への依拠から生じた間接損害、付随的損害、特別損害、結果損害、逸失利益、データ喪失、または事業中断について責任を負いません。
+
+この免責は、運営者の故意または重過失による責任など、適用法令上排除できない責任には適用しません。運営者が軽過失について責任を負い、法令上その範囲を制限できる場合、責任の範囲は直接かつ通常の損害に限られ、その総額は利用者が本アプリに支払った金額を上限とします。消費者法その他の強行法規に基づく権利および救済は影響を受けません。
+
+### 第14条（本規約の変更）
+
+運営者は、本アプリ、法令、セキュリティ上の必要性、または第三者サービスの変更により合理的に必要な場合、本規約を変更することがあります。変更後の規約には、新しい「Last updated」の日付を記載します。利用者に重要な影響を与える変更については、可能な範囲で、本アプリ、App Store の掲載情報、または本サイトを通じて合理的な方法でお知らせします。法令で禁止される場合、変更前にすでに発生した利用者の権利を遡って失わせることはありません。
+
+変更後の規約に同意できない場合は、本アプリの利用を中止してください。変更の効力発生日後も本アプリを利用した場合、適用法令で認められる範囲で、変更後の規約への同意となることがあります。
+
+### 第15条（準拠法および管轄）
+
+本規約は日本法に準拠し、抵触法の原則は適用しません。日本の裁判所が管轄を有する場合、東京地方裁判所を第一審の合意管轄裁判所とします。ただし、消費者保護法その他の強行法規により別の裁判所または手続が必要となる場合は、その定めに従います。
+
+### 第16条（問い合わせ）
+
+本アプリまたは本規約に関する問い合わせは、冒頭に記載したサポートフォームから送信できます。
