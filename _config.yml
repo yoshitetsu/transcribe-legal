@@ -12,3 +12,5 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+include:
+  - googled216a0b960e76e4b.html
